@@ -17,11 +17,6 @@ const Header = () => {
                 <div><Link className='each-link' href={"/features"}>Features</Link></div>
                 <div><Link className='each-link' href={"/community"}>Community</Link></div>
             </div>
-            <div className='button'>
-                <Button
-                    text='Register now'
-                 />
-            </div>
         </div>
     </div>
   )
