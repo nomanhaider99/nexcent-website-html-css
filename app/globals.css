@@ -20,6 +20,11 @@
     color: black;
     font-weight: 600;
   }
+  .links {
+    display: flex;
+    gap: 2px;
+    font-size: 10px;
+  }
 
 .button {
   background-color: #4caf4f;
@@ -34,8 +39,6 @@
   gap: 30px;
   align-items: center;
 }
-
-
 .each-link {
   font-size: smaller;
   color: gray;
