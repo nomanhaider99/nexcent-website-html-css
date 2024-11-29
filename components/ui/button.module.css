@@ -1,0 +1,16 @@
+.primary-button {
+    background-color: #3921F5;
+    color: white;
+    padding: 10px 14px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+.secondary-button {
+    background-color: transparent;
+    color: #141F39;
+    padding: 10px 14px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}

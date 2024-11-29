@@ -1,20 +1,15 @@
 import Image from 'next/image'
 import React from 'react'
-import LogoImage from "@/public/images/Icon.png"
+import LogoImage from '@/public/images/Logo.png'
 
 const Logo = () => {
   return (
-    <div className="logo">
-        <div>
-            <Image
-                src={LogoImage}
-                alt=''
-                height={16}
-                width={20}
-            />
-        </div>
-        <div className='header-logo-text'>Nexcent</div>
-    </div>
+    <Image
+        alt=''
+        src={LogoImage}
+        width={150}
+        height={25}
+     />
   )
 }
 

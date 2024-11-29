@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { Roboto } from "next/font/google";
+import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/layouts/Header";
 import Footer from "@/components/layouts/Footer";
 
-const roboto = Roboto({
+const roboto = Space_Grotesk({
   subsets: ["latin"],
-  weight: ["100", "300", "400", "500", "700", "900"]
+  weight: ["300", "400", "500", "700"]
 })
 
 export const metadata: Metadata = {

@@ -1,12 +1,22 @@
 import React from 'react'
+import buttonStyles from '@/components/ui/button.module.css'
 
 interface ButtonProps {
-    text: string
+  text: string
+  outline?: boolean
 }
 
-const Button: React.FC<ButtonProps> = ({ text }) => {
+const Button: React.FC<ButtonProps> = ({ text, outline }) => {
   return (
-    <button className='button'>{text}</button>
+    <button
+      className={
+        outline 
+          ? buttonStyles['secondary-button'] 
+          : buttonStyles['primary-button']
+      }
+    >
+      {text}
+    </button>
   )
 }
 

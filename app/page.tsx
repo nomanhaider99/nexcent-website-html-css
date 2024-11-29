@@ -1,17 +1,13 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Grow from "@/components/widgets/Grow";
 import Hero from "@/components/widgets/Hero";
-import Clients from "@/components/widgets/Clients";
-import Community from "@/components/widgets/Community";
-import Teach from "@/components/widgets/Teach";
+import Logos from "@/components/widgets/Logos";
 
 export default function Home() {
   return (
     <>
       <Hero />
-      <Clients />
-      <Community />
-      <Teach />
+      <Logos />
+      <Grow />
     </>
   );
 }
