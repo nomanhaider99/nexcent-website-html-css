@@ -10,7 +10,7 @@ const roboto = Space_Grotesk({
 })
 
 export const metadata: Metadata = {
-  title: "Nexcent",
+  title: "QuickSpace",
 };
 
 export default function RootLayout({
